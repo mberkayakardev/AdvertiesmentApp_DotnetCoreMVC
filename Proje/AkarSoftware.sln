@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.Entities", "AkarSoftware.Entities\AkarSoftware.Entities.csproj", "{59FB8D65-85D6-485E-BB17-66FBFE5115B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.Core", "AkarSoftware.Core\AkarSoftware.Core.csproj", "{E8C95345-BE93-49C4-81BC-186274320111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.Dtos", "AkarSoftware.Dtos\AkarSoftware.Dtos.csproj", "{9E8BCB9D-AB8B-48DB-BF2C-42F9E3F0522C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.DataAccess", "AkarSoftware.DataAccess\AkarSoftware.DataAccess.csproj", "{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.Managers", "AkarSoftware.Managers\AkarSoftware.Managers.csproj", "{E839FA94-77D6-4B52-A92C-86DC7201A424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkarSoftware.MVC.UI", "AkarSoftware.MVC.UI\AkarSoftware.MVC.UI.csproj", "{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59FB8D65-85D6-485E-BB17-66FBFE5115B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FB8D65-85D6-485E-BB17-66FBFE5115B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FB8D65-85D6-485E-BB17-66FBFE5115B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FB8D65-85D6-485E-BB17-66FBFE5115B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C95345-BE93-49C4-81BC-186274320111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C95345-BE93-49C4-81BC-186274320111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C95345-BE93-49C4-81BC-186274320111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C95345-BE93-49C4-81BC-186274320111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E8BCB9D-AB8B-48DB-BF2C-42F9E3F0522C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E8BCB9D-AB8B-48DB-BF2C-42F9E3F0522C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E8BCB9D-AB8B-48DB-BF2C-42F9E3F0522C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E8BCB9D-AB8B-48DB-BF2C-42F9E3F0522C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E839FA94-77D6-4B52-A92C-86DC7201A424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E839FA94-77D6-4B52-A92C-86DC7201A424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E839FA94-77D6-4B52-A92C-86DC7201A424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E839FA94-77D6-4B52-A92C-86DC7201A424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

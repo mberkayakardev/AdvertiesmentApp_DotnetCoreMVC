@@ -1,0 +1,2 @@
+﻿Burada core katmanında tüm projelerde ortak kullanılmasını istediğiniz extentionlarınız var ise bunlara
+extention methodlar yazabilirsiniz.
