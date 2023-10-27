@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AkarSoftware.MVC.UI.props" />
+</Project>

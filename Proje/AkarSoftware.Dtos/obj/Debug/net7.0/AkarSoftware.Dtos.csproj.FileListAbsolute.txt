@@ -1,0 +1,16 @@
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\bin\Debug\net7.0\AkarSoftware.Dtos.deps.json
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\bin\Debug\net7.0\AkarSoftware.Dtos.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\bin\Debug\net7.0\AkarSoftware.Dtos.pdb
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\bin\Debug\net7.0\AkarSoftware.Core.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\bin\Debug\net7.0\AkarSoftware.Core.pdb
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.csproj.AssemblyReference.cache
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.AssemblyInfoInputs.cache
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.AssemblyInfo.cs
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.csproj.CoreCompileInputs.cache
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.sourcelink.json
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.csproj.CopyComplete
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\refint\AkarSoftware.Dtos.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\AkarSoftware.Dtos.pdb
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.Dtos\obj\Debug\net7.0\ref\AkarSoftware.Dtos.dll
