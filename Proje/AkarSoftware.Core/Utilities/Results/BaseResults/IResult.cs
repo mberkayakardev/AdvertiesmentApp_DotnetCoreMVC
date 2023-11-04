@@ -1,8 +1,13 @@
-﻿namespace AkarSoftware.Core.Utilities.Results.BaseResults
+﻿using AkarSoftware.Core.Utilities.Results.ComplexTypes;
+using AkarSoftware.Core.Utilities.Results.CostumeResults;
+
+namespace AkarSoftware.Core.Utilities.Results.BaseResults
 {
     public interface IResult
     {
-        public bool Success { get; }
+        public ResultStatus Status { get; }
         public string Messages { get; }
+        public IEnumerable<ValidatonErrorResult> ValidationErrors { get; }
     }
 }
+

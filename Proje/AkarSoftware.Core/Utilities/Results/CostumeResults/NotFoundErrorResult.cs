@@ -3,18 +3,15 @@ using AkarSoftware.Core.Utilities.Results.ComplexTypes;
 
 namespace AkarSoftware.Core.Utilities.Results.CostumeResults
 {
-    public class ErrorResult<T> : DataResult<T>
+    public class NotFoundErrorResult : Result
     {
-        public ErrorResult(T data) : base(data, ResultStatus.Error)
+        public NotFoundErrorResult() : base(ResultStatus.NotFound)
         {
 
         }
-
-        public ErrorResult(T data, string Messages) : base(data,ResultStatus.Error, Messages)
+        public NotFoundErrorResult(string Message) : base(ResultStatus.NotFound, Message)
         {
-
 
         }
     }
 }
-

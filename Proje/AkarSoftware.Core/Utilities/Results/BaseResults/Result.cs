@@ -1,20 +1,33 @@
-﻿using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
+﻿using AkarSoftware.Core.Utilities.Results.ComplexTypes;
+using AkarSoftware.Core.Utilities.Results.CostumeResults;
+using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 
 namespace AkarSoftware.Core.Utilities.Results.BaseResults
 {
     public class Result : IResult
     {
-        public bool Success { get; }
         public string Messages { get; }
+        public ResultStatus Status { get; }
+        public IEnumerable<ValidatonErrorResult> ValidationErrors { get; }
 
-        public Result(bool Success, string StatusMessages) : this(Success)
+        public Result(ResultStatus status, string StatusMessages, IEnumerable<ValidatonErrorResult> Errors) : this(status, StatusMessages)
+        {
+            ValidationErrors = Errors;
+        }
+
+        public Result(ResultStatus status, string StatusMessages) : this(status)
         {
             this.Messages = StatusMessages;
         }
 
-        public Result(bool Success)
+        public Result(ResultStatus status)
         {
-            this.Success = Success;
+            this.Status = status;
+        }
+
+        public Result (ResultStatus status, IEnumerable<ValidatonErrorResult> Errors) : this (status, string.Empty, Errors) 
+        {
+
         }
     }
 }

@@ -7,9 +7,8 @@ namespace AkarSoftware.Core.Entities.Concrete
     {
         public string RoleName { get; set; }
         public string Description { get; set; }
-        #region Navigation Properties 
-        List<BaseRoleRoleEntity> baseRoleRoleEntities { get; set; }
+        #region Navigation Property 
+        List<AppUserRole> AppUserRoles { get; set; }
         #endregion
-
     }
 }

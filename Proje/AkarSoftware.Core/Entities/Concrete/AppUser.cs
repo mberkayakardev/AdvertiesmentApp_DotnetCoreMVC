@@ -14,16 +14,17 @@ namespace AkarSoftware.Core.Entities.Concrete
         public string? PhoneNumber { get; set; }
         public bool PhoneNumberConfirmed { get; set; } = false;
         public bool TwoFactorAuthenticaton { get; set; } 
-        public bool AlwaysLockAccount { get; set; } // bir hesap kalıcı bir şekilde blokelenebilir. bu özellik bunu sağlamaktadır. 
+        public bool AlwaysLockAccount { get; set; } // Always locked. 
         public DateTime? LockOutEndDate { get; set; }
         public DateTime CreateDate { get; set; } = DateTime.Now;
         public DateTime UpdatedDate { get; set; } = DateTime.Now;
         public byte[] PasswordHash { get; set; }
         public bool Status { get; set; } = true;
+        public int GendersId { get; set; }
+        public Genders Genders { get; set; }
 
         #region Navigation Properties 
-        public List<UserBaseRoles> UserMasterRoles { get; set; }
-
+        public List<AppUserRole> UserMasterRoles { get; set; }
         #endregion
 
     }
