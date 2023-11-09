@@ -6,6 +6,6 @@ namespace AkarSoftware.Entities.Concrete
     {
         public string Status { get; set; }
         public string StatusDescription { get; set; }
-        public List<AdvertiesmentUser>
+        public List<AdvertiesmentUser> AdvertiesmentUsers { get; set; }
     }
 }

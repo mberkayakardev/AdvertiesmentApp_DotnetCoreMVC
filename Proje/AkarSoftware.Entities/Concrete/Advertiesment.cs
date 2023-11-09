@@ -1,4 +1,5 @@
 ﻿using AkarSoftware.Core.Entities.Abstract;
+using AkarSoftware.Core.Entities.Concrete;
 using System;
 
 namespace AkarSoftware.Entities.Concrete
@@ -13,6 +14,7 @@ namespace AkarSoftware.Entities.Concrete
         public bool ApplicationStatus { get; set; } // işe başvurulabilirlik statüsü 
         public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
+        public List<AdvertiesmentUser> AdvertiesmentUsers { get; set; }
 
     }
 }
