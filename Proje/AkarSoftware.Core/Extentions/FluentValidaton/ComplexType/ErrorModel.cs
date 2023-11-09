@@ -1,4 +1,4 @@
-﻿namespace AkarSoftware.Core.Extentions.FluentApi.ComplexType
+﻿namespace AkarSoftware.Core.Extentions.FluentValidation.ComplexType
 {
     public class ErrorModel
     {

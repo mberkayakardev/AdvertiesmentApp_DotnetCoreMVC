@@ -1,7 +1,7 @@
-﻿using AkarSoftware.Core.Extentions.FluentApi.ComplexType;
+﻿using AkarSoftware.Core.Extentions.FluentValidation.ComplexType;
 using FluentValidation.Results;
 
-namespace AkarSoftware.Core.Extentions.FluentApi.Concrete
+namespace AkarSoftware.Core.Extentions.FluentValidation.Concrete
 {
     public static class FluentApiExtentions
     {
