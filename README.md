@@ -47,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Proje Hakkında 
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/db.png)
+<img src ="https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/db.png?raw=true" >
 
 Sanal bir teknoloji danışmanlık şirketi olan AkarSoftware için geliştirilmiş olan hayali bir web sayfasıdır. içerisinde şirket işleyişini müşterilere tanıtan bir tanıtım sayfası, Personel arayışı için iş ilanı sayfası, iş başvuru modülü gibi özellikler barındırmaktadır. 
 
