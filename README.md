@@ -18,18 +18,12 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][https://github.com/mberkayakardev]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/berkayakar/]
-
 
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/db.png?raw=true">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
+<div align="center">
   <h3 align="center">Akar Software - Tanıtım Ve İş Başvurusu Projesi</h3>
 </div>
 
@@ -53,7 +47,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Proje Hakkında 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/db.png)
 
 Sanal bir teknoloji danışmanlık şirketi olan AkarSoftware için geliştirilmiş olan hayali bir web sayfasıdır. içerisinde şirket işleyişini müşterilere tanıtan bir tanıtım sayfası, Personel arayışı için iş ilanı sayfası, iş başvuru modülü gibi özellikler barındırmaktadır. 
 
