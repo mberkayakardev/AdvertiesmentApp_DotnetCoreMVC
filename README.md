@@ -59,6 +59,8 @@ Sanal bir teknoloji danışmanlık şirketi olan AkarSoftware için geliştirilm
 
 * .Net 7.0
 * N-Tier Achitecture - (Çok katmanlı mimari)
+* Unit Of Work
+* Generic Repository
 * AutoMapper
 * Fluent Api
 * Fluent Validaton

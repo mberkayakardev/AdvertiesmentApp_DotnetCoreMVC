@@ -7,11 +7,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Folder Include="Abstract\" />
 		<Folder Include="Concrete\DependencyResolves\AutoFac\" />
-		<Folder Include="Concrete\MappingProfiles\" />
 		<Folder Include="Concrete\Managers\" />
-		<Folder Include="Concrete\ValidatonRules\" />
+		<Folder Include="Concrete\MappingProfiles\" />
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
 

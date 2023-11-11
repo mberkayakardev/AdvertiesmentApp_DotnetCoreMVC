@@ -5,10 +5,11 @@ using AkarSoftware.DataAccess.Concrete.EntityFramework.UOW;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System.Drawing.Printing;
 using System.Reflection;
 
 namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
@@ -47,7 +48,6 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
             //    .SetBasePath(Directory.GetCurrentDirectory())
             //    .AddJsonFile(appSettingsPath, optional: true)
             //    .Build();
-
             //services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
 
             services.Configure<AppSettingsOption>(x =>
@@ -89,6 +89,15 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
         /// </summary>
         private static void AddDependencies(IServiceCollection services)
         {
+            #region Fluent Validation Otomatik Register
+            var assemblyList = Assembly.GetExecutingAssembly().GetTypes().Where(x=> x.BaseType.Name.Contains("AbstractValidator")).ToList();
+            foreach (var item in assemblyList)
+            {
+                var DtoType = item.BaseType.GetGenericArguments()[0];
+                services.AddSingleton(typeof(IValidator<>).MakeGenericType(DtoType), item);
+
+            }
+            #endregion
 
         }
         /// <summary>

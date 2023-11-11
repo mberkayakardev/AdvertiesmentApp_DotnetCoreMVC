@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AkarSoftware.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe201d2737117ef8fa99453f9be6df70a24b202a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8873d943b32f6880f6f21e7900005355c23d20fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("AkarSoftware.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AkarSoftware.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
