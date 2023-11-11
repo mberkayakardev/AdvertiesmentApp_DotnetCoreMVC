@@ -1499,8 +1499,7 @@
           "Dapper": "2.1.15",
           "FluentValidation": "11.8.0",
           "FluentValidation.DependencyInjectionExtensions": "11.8.0",
-          "Microsoft.EntityFrameworkCore": "7.0.13",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
+          "Microsoft.EntityFrameworkCore": "7.0.13"
         },
         "compile": {
           "bin/placeholder/AkarSoftware.Core.dll": {}
@@ -1513,7 +1512,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "AkarSoftware.Entities": "1.0.0"
+          "AkarSoftware.Entities": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
         },
         "compile": {
           "bin/placeholder/AkarSoftware.DataAccess.dll": {}

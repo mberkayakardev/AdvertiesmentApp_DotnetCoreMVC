@@ -4,7 +4,6 @@ namespace AkarSoftware.Core.Entities.Concrete
 {
     public class AppUser : BaseEntity
     {
-        public int Id { get; set; }
         public string UserName { get; set; } // Username users (uniqe)
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -18,13 +17,12 @@ namespace AkarSoftware.Core.Entities.Concrete
         public DateTime? LockOutEndDate { get; set; }
         public DateTime CreateDate { get; set; } = DateTime.Now;
         public DateTime UpdatedDate { get; set; } = DateTime.Now;
-        public byte[] PasswordHash { get; set; }
+        public string PasswordHash { get; set; }
         public bool Status { get; set; } = true;
         public int GendersId { get; set; }
-        public Genders Genders { get; set; }
-
+        public Gender Genders { get; set; }
         #region Navigation Properties 
-        public List<AppUserRole> UserMasterRoles { get; set; }
+        public List<AppUserRole> AppUserRoles { get; set; }
         #endregion
 
     }

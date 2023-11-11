@@ -4,13 +4,11 @@ namespace AkarSoftware.Core.Entities.Concrete
 {
     public class AppUserRole : BaseEntity
     {
-        public int Id { get; set; } // PK
-        public int AppUserId { get; set; }
+        public int AppUserId { get; set; } // FK
         public AppUser AppUser { get; set; }
 
-        public int BaseRoleId { get; set; }
+        public int BaseRoleId { get; set; } //FK
         public AppRole BaseRole { get; set; }
-
 
     }
 }

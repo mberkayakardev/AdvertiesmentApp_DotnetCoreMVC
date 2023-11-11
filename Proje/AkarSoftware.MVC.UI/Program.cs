@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 #region Services
 builder.Services.AddControllersWithViews();
+
 /// Added Costume Services
 builder.Services.AddCostumeServices(builder.Configuration);
 

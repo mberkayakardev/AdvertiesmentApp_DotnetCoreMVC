@@ -1,6 +1,5 @@
 ﻿using AkarSoftware.Core.Entities.Abstract;
 using AkarSoftware.Core.Entities.Concrete;
-using Microsoft.Identity.Client;
 
 namespace AkarSoftware.Entities.Concrete
 {
@@ -10,7 +9,6 @@ namespace AkarSoftware.Entities.Concrete
         public DateTime? EndDate { get; set; } // Military Statü bitiş tarihi (Tecil için)
         public int WorkExperiance { get; set; }
         public string CvPath { get; set; }
-        
         public int AppUserId { get; set; }
         public AppUser ApplyUser { get; set; }
         public int AdvertiesmentId { get; set; }

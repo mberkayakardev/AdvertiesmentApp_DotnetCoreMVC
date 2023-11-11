@@ -4,6 +4,7 @@ using AkarSoftware.DataAccess.Concrete.EntityFramework.DbContexts;
 using AkarSoftware.DataAccess.Concrete.EntityFramework.UOW;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -63,7 +64,7 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
         private static void AddAnotherConfigurationServices(IServiceCollection services, IConfiguration configuration)
         {
             services.AddSession();
-            //services.ConfigureApplicationCookie()
+            services.AddMemoryCache(); // memoryCache eklendi .
         }
 
         /// <summary>
@@ -73,7 +74,8 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
         {
             services.AddDbContext<MyDbContexts>(x =>
             {
-                x.UseSqlServer(configuration.GetSection("AppSettings:ConnectionString").Value.ToString());
+                x.UseSqlServer(configuration.GetConnectionString("SqlServer"));
+                x.EnableSensitiveDataLogging(true);
             });
         }
 
@@ -106,7 +108,18 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
 
         private static void AddAuthenticaton(IServiceCollection services)
         {
-            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie();
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(opt =>
+                {
+                    opt.LogoutPath = new PathString("/singout");
+                    opt.LoginPath = new PathString("/singin");
+                    opt.AccessDeniedPath = new PathString("/forbidden");
+
+                    opt.Cookie.Name = "AkarSoftWare";
+                    opt.Cookie.HttpOnly = true;
+                    opt.Cookie.SameSite = SameSiteMode.Strict;
+                    opt.Cookie.Expiration = TimeSpan.FromDays(80);
+                });
         }
 
         #endregion

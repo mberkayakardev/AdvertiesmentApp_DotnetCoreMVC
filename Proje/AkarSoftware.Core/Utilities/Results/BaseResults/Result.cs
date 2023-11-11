@@ -1,6 +1,5 @@
 ﻿using AkarSoftware.Core.Utilities.Results.ComplexTypes;
 using AkarSoftware.Core.Utilities.Results.CostumeResults;
-using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
 
 namespace AkarSoftware.Core.Utilities.Results.BaseResults
 {

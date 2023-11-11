@@ -82,3 +82,8 @@ D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\obj\Debug\net7.0\refint\Aka
 D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\obj\Debug\net7.0\AkarSoftware.MVC.UI.pdb
 D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\obj\Debug\net7.0\AkarSoftware.MVC.UI.genruntimeconfig.cache
 D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\obj\Debug\net7.0\ref\AkarSoftware.MVC.UI.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\Humanizer.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\System.CodeDom.dll
