@@ -2,6 +2,8 @@
 using AkarSoftware.DataAccess.Abstract;
 using AkarSoftware.DataAccess.Concrete.EntityFramework.DbContexts;
 using AkarSoftware.DataAccess.Concrete.EntityFramework.UOW;
+using AkarSoftware.Managers.Abstract;
+using AkarSoftware.Managers.Concrete.Managers;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
@@ -89,16 +91,8 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
         /// </summary>
         private static void AddDependencies(IServiceCollection services)
         {
-            #region Fluent Validation Otomatik Register
-            var assemblyList = Assembly.GetExecutingAssembly().GetTypes().Where(x=> x.BaseType.Name.Contains("AbstractValidator")).ToList();
-            foreach (var item in assemblyList)
-            {
-                var DtoType = item.BaseType.GetGenericArguments()[0];
-                services.AddSingleton(typeof(IValidator<>).MakeGenericType(DtoType), item);
 
-            }
-            #endregion
-
+            services.AddScoped<IProviderServicesService, ProviderServicesManager>();
         }
         /// <summary>
         ///  Automapper ekler 
@@ -110,9 +104,21 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
 
         private static void AddValidatons(IServiceCollection services)
         {
-            //services.AddTransient<IValidator<AddAppUserDto>, AddAppUserValidationRules>();
-            //services.AddTransient<IValidator<UpdateAppUserDto>, UpdateAppUserValidatonRules>();
-            //services.AddTransient<IValidator<DeleteAppUserDto>, DeleteAppUserDtoValidationRules>();
+            #region Fluent Validation Otomatik Register
+            var assemblyList = Assembly.GetExecutingAssembly().GetTypes().Where(x => x.BaseType.Name.Contains("AbstractValidator")).ToList();
+            foreach (var item in assemblyList)
+            {
+                var DtoType = item.BaseType.GetGenericArguments()[0];
+                services.AddSingleton(typeof(IValidator<>).MakeGenericType(DtoType), item);
+            }
+            #endregion
+
+            #region Manual
+            //services.AddSingleton<IValidator<AddAppUserDto>, AddAppUserValidationRules>();
+            //services.AddSingleton<IValidator<UpdateAppUserDto>, UpdateAppUserValidatonRules>();
+            //services.AddSingleton<IValidator<DeleteAppUserDto>, DeleteAppUserDtoValidationRules>();
+            #endregion
+
         }
 
         private static void AddAuthenticaton(IServiceCollection services)
@@ -127,7 +133,7 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
                     opt.Cookie.Name = "AkarSoftWare";
                     opt.Cookie.HttpOnly = true;
                     opt.Cookie.SameSite = SameSiteMode.Strict;
-                    opt.Cookie.Expiration = TimeSpan.FromDays(80);
+                    opt.ExpireTimeSpan = TimeSpan.FromDays(60);
                 });
         }
 

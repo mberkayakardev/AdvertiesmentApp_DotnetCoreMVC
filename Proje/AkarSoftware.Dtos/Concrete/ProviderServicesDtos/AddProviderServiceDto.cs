@@ -1,6 +1,8 @@
-﻿namespace AkarSoftware.Dtos.Concrete.ProviderServicesDtos
+﻿using AkarSoftware.Core.Dtos.Abstract;
+
+namespace AkarSoftware.Dtos.Concrete.ProviderServicesDtos
 {
-    public class AddProviderServiceDto
+    public class AddProviderServiceDto : IDto
     {
         public string Title { get; set; }
         public string ImagePath { get; set; }

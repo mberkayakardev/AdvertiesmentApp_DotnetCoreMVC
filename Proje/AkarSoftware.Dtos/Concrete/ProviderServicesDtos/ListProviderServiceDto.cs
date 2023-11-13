@@ -1,6 +1,8 @@
-﻿namespace AkarSoftware.Dtos.Concrete.ProviderServicesDtos
+﻿using AkarSoftware.Core.Dtos.Abstract;
+
+namespace AkarSoftware.Dtos.Concrete.ProviderServicesDtos
 {
-    public class ListProviderServiceDto
+    public class ListProviderServiceDto : IDto
     {
         public int Id { get; set; }
         public string Title { get; set; }

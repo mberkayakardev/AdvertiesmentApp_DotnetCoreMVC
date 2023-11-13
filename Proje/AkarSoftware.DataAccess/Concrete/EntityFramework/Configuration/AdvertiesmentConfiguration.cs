@@ -12,8 +12,6 @@ namespace AkarSoftware.DataAccess.Concrete.EntityFramework.Configuration
             builder.Property(x => x.Title).HasMaxLength(500).IsRequired(); 
             builder.Property(x => x.Description).HasColumnType("ntext").IsRequired(); // Uzun ilan için geçerli
             builder.Property(x=> x.CreatedDate).HasDefaultValue(DateTime.Now);
-
-
         }
     }
 }

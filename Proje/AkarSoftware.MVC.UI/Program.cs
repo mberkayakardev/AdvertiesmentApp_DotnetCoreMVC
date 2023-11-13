@@ -1,5 +1,6 @@
- using AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft;
+using AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft;
 using AkarSoftware.Managers.Concrete.Middlewares;
+using Microsoft.AspNetCore.Mvc;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -47,7 +48,10 @@ app.UseAuthorization();
 /// Endpoints Configuration
 app.UseEndpoints(x =>
 {
+    x.MapControllerRoute(name: "default", pattern: "{Controller=Home}/{Action=Index}/{id?}", defaults: new { Controller = "Home", Action = "Index", Area = "Landing" });
+    
     x.MapControllerRoute(name: "areas", pattern: "{Area=Landing}/{Controller=Home}/{Action=Index}/{id?}");
+
 });
 
 

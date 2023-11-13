@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="AkarSoftwareAdvertiesmentApp" />
+    <meta name="author" content="mberkayakar" />
+    <title>Akar Software ©2023 </title>
+    <link rel="icon" type="image/x-icon" href="~/Themes/Landing/startbootstrap-one-page-wonder-gh-pages/assets/img/akrbiglogo.png" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
+    <link href="~/Themes/Landing/startbootstrap-one-page-wonder-gh-pages/css/styles.css" rel="stylesheet" />
+    @RenderSection("Styles", false)
+</head>
+<body id="page-top">
+    <div>
+
+        <!-- Navigation Bar -->
+        <partial name="PartialViews/_Navbar" />
+
+        <!-- Header-->
+        <partial name="PartialViews/_Content" />
+
+        <!-- Content section 1-->
+        @* @await Component.InvokeAsync("SectionViewComponent") *@
+
+        <!-- Render Body-->
+        @RenderBody()
+          
+        <!-- Footer -->
+        <partial name="PartialViews/_Footer" />
+
+        <!-- Scripts -->
+        @RenderSection("Scripts", false)
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/Themes/Landing/startbootstrap-one-page-wonder-gh-pages/js/scripts.js"></script>
+    </div>
+
+</body>
+</html>

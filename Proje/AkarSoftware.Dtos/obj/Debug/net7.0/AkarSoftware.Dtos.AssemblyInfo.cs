@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AkarSoftware.Dtos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8873d943b32f6880f6f21e7900005355c23d20fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b78b6076b5d1ebc366f430630caebf5cf980f80")]
 [assembly: System.Reflection.AssemblyProductAttribute("AkarSoftware.Dtos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AkarSoftware.Dtos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
