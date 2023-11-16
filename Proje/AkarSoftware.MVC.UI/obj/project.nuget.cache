@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B8y4XoIBnIfoVydeMjcxlALW9BTcKdaS0XACtzv8caNSdCilDlyLPzXTcO6qDdDrFXCwzeL+vj3jdpzO5DjyhQ==",
+  "dgSpecHash": "ueIzVDu1MmpkzelFdF9ZBW+XshXDJNqNB1yh0Spb/bNj63RDWj7kaa97ckxjNS99Js3Gno3LL40p1EaVWlEg/Q==",
   "success": true,
   "projectFilePath": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj",
   "expectedPackageFiles": [
@@ -144,6 +144,9 @@
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\nlog\\5.2.5\\nlog.5.2.5.nupkg.sha512",
+    "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\nlog.extensions.logging\\5.3.5\\nlog.extensions.logging.5.3.5.nupkg.sha512",
+    "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.5\\nlog.web.aspnetcore.5.3.5.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\nuget.common\\6.6.1\\nuget.common.6.6.1.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\nuget.configuration\\6.6.1\\nuget.configuration.6.6.1.nupkg.sha512",
     "C:\\Users\\Muhammed Berkay AKAR\\.nuget\\packages\\nuget.dependencyresolver.core\\6.6.1\\nuget.dependencyresolver.core.6.6.1.nupkg.sha512",

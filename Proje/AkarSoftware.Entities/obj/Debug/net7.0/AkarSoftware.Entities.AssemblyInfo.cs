@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AkarSoftware.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b78b6076b5d1ebc366f430630caebf5cf980f80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9444577cb9cc259a96eb061179ef7370dd85514d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AkarSoftware.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AkarSoftware.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

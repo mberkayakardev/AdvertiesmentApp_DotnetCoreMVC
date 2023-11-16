@@ -66,5 +66,6 @@ Sanal bir teknoloji danışmanlık şirketi olan AkarSoftware için geliştirilm
 * Fluent Validaton
 * Entity Framework Core
 * SummerNote editör
+* NLogger
 * Javascript - Html - CSS - Bootstrap 
  

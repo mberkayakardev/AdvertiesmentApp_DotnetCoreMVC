@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AkarSoftware.MVC.UI.Areas.Landing.ViewComponents.Sections
 {
+    [Area("Landing")]
     public class SectionViewComponent : ViewComponent
     {
         private readonly IProviderServicesService _providerServicesService;
@@ -19,7 +20,11 @@ namespace AkarSoftware.MVC.UI.Areas.Landing.ViewComponents.Sections
             
             if (result.Status != ResultStatus.Success)
                 TempData["Messages"] = result.Messages;
-            
+
+            else
+                TempData["Messages"] = result.Messages;
+
+
             return View("_Section", result.Data);
 
         }

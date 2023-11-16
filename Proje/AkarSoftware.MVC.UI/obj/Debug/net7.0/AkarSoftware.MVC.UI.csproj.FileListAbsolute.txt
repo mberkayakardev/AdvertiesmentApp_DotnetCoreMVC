@@ -270,3 +270,7 @@ D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\obj\Debug\net7.0\refint\Aka
 D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\obj\Debug\net7.0\AkarSoftware.MVC.UI.pdb
 D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\obj\Debug\net7.0\AkarSoftware.MVC.UI.genruntimeconfig.cache
 D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\obj\Debug\net7.0\ref\AkarSoftware.MVC.UI.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\NLog.config
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\NLog.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\NLog.Extensions.Logging.dll
+D:\Github\AdvertiesmentApp\Proje\AkarSoftware.MVC.UI\bin\Debug\net7.0\NLog.Web.AspNetCore.dll

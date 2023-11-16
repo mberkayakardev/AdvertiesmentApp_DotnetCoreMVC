@@ -1,9 +1,16 @@
-using AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft;
+﻿using AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft;
 using AkarSoftware.Managers.Concrete.Middlewares;
-using Microsoft.AspNetCore.Mvc;
+using NLog;
+using NLog.Web;
 
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Host.ConfigureLogging(log =>
+{
+    log.ClearProviders();
+    log.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+}).UseNLog(); // NLog İmplementetaion 
+
 
 #region Services
 builder.Services.AddControllersWithViews();
@@ -24,8 +31,8 @@ if (app.Environment.IsDevelopment())
 else
 {
     app.UseExceptionHandler("/Error/GetErrors");
-    app.UseStatusCodePagesWithReExecute("/Error/Status", "?code={0}");
-    app.UseHttpsRedirection();
+    //app.UseStatusCodePagesWithReExecute("/Error/Status", "?code={0}");
+    app.UseHttpsRedirection(); // HTTPS yönlendirmesi otomatik olarak gerçekleşecektir. 
 }
 
 
