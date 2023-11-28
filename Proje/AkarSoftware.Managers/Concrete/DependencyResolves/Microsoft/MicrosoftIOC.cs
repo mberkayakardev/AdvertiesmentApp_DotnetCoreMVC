@@ -7,24 +7,23 @@ using AkarSoftware.Managers.Concrete.Managers;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpLogging;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using System.Reflection;
 
 namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
 {
     public static class MicrosoftIOC
     {
-        public static void AddCostumeServices(this IServiceCollection services, IConfiguration configuration)
+        public static void AddCostumeServices(this IServiceCollection services, IConfiguration configuration, IHostEnvironment enviroment)
         {
             AddConfigurationFiles(services, configuration);
 
             AddAnotherConfigurationServices(services, configuration);
 
-            AddDbContext(services, configuration);
+            AddDbContext(services, configuration, enviroment);
 
             AddUnitOfWork(services, configuration);
 
@@ -72,12 +71,15 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
         /// <summary>
         /// DbContext ayarlandı.
         /// </summary>
-        private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
+        private static void AddDbContext(IServiceCollection services, IConfiguration configuration, IHostEnvironment enviroment)
         {
             services.AddDbContext<MyDbContexts>(x =>
             {
                 x.UseSqlServer(configuration.GetConnectionString("SqlServer"));
-                x.EnableSensitiveDataLogging(true);
+                if (enviroment.IsDevelopment())
+                {
+                    x.EnableSensitiveDataLogging(true); // veritabanı loglaması için aktif hale getirildi. 
+                }
             });
         }
 

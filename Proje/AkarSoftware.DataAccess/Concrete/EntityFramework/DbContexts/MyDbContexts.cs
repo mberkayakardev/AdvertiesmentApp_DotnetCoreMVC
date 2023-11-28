@@ -1,5 +1,4 @@
 ﻿using AkarSoftware.Core.Entities.Concrete;
-using AkarSoftware.DataAccess.Concrete.EntityFramework.Configuration;
 using AkarSoftware.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;

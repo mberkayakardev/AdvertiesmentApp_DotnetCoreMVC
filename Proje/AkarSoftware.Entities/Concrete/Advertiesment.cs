@@ -1,6 +1,4 @@
 ﻿using AkarSoftware.Core.Entities.Abstract;
-using AkarSoftware.Core.Entities.Concrete;
-using System;
 
 namespace AkarSoftware.Entities.Concrete
 {

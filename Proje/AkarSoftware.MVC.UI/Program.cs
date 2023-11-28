@@ -16,7 +16,7 @@ builder.Host.ConfigureLogging(log =>
 builder.Services.AddControllersWithViews();
 
 /// Added Costume Services
-builder.Services.AddCostumeServices(builder.Configuration);
+builder.Services.AddCostumeServices(builder.Configuration, builder.Environment);
 
 #endregion
 

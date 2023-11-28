@@ -2,9 +2,7 @@
 using AkarSoftware.Core.Utilities.Security.HashHelper;
 using AkarSoftware.Core.Utilities.TypeConversation;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System.Net.NetworkInformation;
 
 namespace AkarSoftware.DataAccess.Concrete.EntityFramework.Seeds
 {

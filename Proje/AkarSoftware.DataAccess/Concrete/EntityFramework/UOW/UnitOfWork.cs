@@ -2,8 +2,6 @@
 using AkarSoftware.Core.Entities.Abstract;
 using AkarSoftware.DataAccess.Abstract;
 using AkarSoftware.DataAccess.Concrete.EntityFramework.DbContexts;
-using AkarSoftware.DataAccess.Concrete.EntityFramework.Repository;
-using System.ComponentModel;
 
 namespace AkarSoftware.DataAccess.Concrete.EntityFramework.UOW
 {

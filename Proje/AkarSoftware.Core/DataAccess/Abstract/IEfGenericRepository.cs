@@ -1,7 +1,6 @@
 ﻿using AkarSoftware.Core.DataAccess.Concrete.ComplexTypes;
 using AkarSoftware.Core.Entities.Abstract;
 using System.Linq.Expressions;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace AkarSoftware.Core.DataAccess.Abstract
 {

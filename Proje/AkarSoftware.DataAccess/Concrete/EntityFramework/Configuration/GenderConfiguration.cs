@@ -1,7 +1,6 @@
 ﻿using AkarSoftware.Core.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Microsoft.Identity.Client;
 
 namespace AkarSoftware.DataAccess.Concrete.EntityFramework.Configuration
 {
