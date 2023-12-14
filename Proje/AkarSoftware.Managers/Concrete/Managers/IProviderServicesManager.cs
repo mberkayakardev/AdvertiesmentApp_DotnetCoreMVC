@@ -6,6 +6,8 @@ using AkarSoftware.Entities.Concrete;
 using AkarSoftware.Managers.Abstract;
 using AkarSoftware.Managers.Concrete.ConstVerables;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore.Design.Internal;
+using static AkarSoftware.Managers.Concrete.ConstVerables.Messages;
 
 namespace AkarSoftware.Managers.Concrete.Managers
 {
@@ -24,7 +26,7 @@ namespace AkarSoftware.Managers.Concrete.Managers
                 return new NotFoundDataResult<List<ListProviderServiceDto>>(Messages.Result.NotFound);
 
             var resultmodel = _Mapper.Map<List<ListProviderServiceDto>>(models);
-            return new SuccessDataResult<List<ListProviderServiceDto>>(resultmodel);
+            return new SuccessDataResult<List<ListProviderServiceDto>>(resultmodel, CRUD.Read);
         }
     }
 }

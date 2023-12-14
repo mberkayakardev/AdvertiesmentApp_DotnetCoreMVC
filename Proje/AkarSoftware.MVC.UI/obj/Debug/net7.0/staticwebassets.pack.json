@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\wwwroot\\Medias\\Images\\erp.jpg",
+      "PackagePath": "staticwebassets\\Medias\\Images\\erp.jpg"
+    },
+    {
+      "Id": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\wwwroot\\Medias\\Images\\software-2.jpg",
+      "PackagePath": "staticwebassets\\Medias\\Images\\software-2.jpg"
+    },
+    {
       "Id": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\wwwroot\\Themes\\Global\\ServerErrorPage\\codepenchallenge-error-500bug-hunt\\README.markdown",
       "PackagePath": "staticwebassets\\Themes\\Global\\ServerErrorPage\\codepenchallenge-error-500bug-hunt\\README.markdown"
     },

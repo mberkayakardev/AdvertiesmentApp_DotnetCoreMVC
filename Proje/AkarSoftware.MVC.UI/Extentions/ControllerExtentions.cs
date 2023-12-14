@@ -8,12 +8,12 @@ namespace AkarSoftware.MVC.UI.Extentions
     /// </summary>
     public static class ControllerExtentions
     {
-        public static IActionResult ResponseRedirectAction<T>(this Controller controller, Core.Utilities.Results.BaseResults.IDataResult<T> Response, string ActionName)
-        {
-            if (Response.Status == ResultStatus.NotFound)
-            {
-                return controller.NotFound();
-            }
-        }
+        //public static IActionResult ResponseRedirectAction<T>(this Controller controller, Core.Utilities.Results.BaseResults.IDataResult<T> Response, string ActionName)
+        //{
+        //    if (Response.Status == ResultStatus.NotFound)
+        //    {
+        //        return controller.NotFound();
+        //    }
+        //}
     }
 }

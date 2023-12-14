@@ -3,12 +3,68 @@
   "WorkspaceRootPath": "D:\\Github\\AdvertiesmentApp\\Proje\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.managers\\concrete\\dependencyresolves\\microsoft\\microsoftioc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|solutionrelative:akarsoftware.managers\\concrete\\dependencyresolves\\microsoft\\microsoftioc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\areas\\landing\\views\\shared\\partialviews\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\areas\\landing\\views\\shared\\partialviews\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\areas\\landing\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\areas\\landing\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\areas\\landing\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\areas\\landing\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C95345-BE93-49C4-81BC-186274320111}|AkarSoftware.Core\\AkarSoftware.Core.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.core\\utilities\\results\\baseresults\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C95345-BE93-49C4-81BC-186274320111}|AkarSoftware.Core\\AkarSoftware.Core.csproj|solutionrelative:akarsoftware.core\\utilities\\results\\baseresults\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8C95345-BE93-49C4-81BC-186274320111}|AkarSoftware.Core\\AkarSoftware.Core.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.core\\utilities\\results\\costumeresults\\successdataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8C95345-BE93-49C4-81BC-186274320111}|AkarSoftware.Core\\AkarSoftware.Core.csproj|solutionrelative:akarsoftware.core\\utilities\\results\\costumeresults\\successdataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\areas\\landing\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\areas\\landing\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.managers\\concrete\\managers\\iproviderservicesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|solutionrelative:akarsoftware.managers\\concrete\\managers\\iproviderservicesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.managers\\concrete\\constverables\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|solutionrelative:akarsoftware.managers\\concrete\\constverables\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.managers\\concrete\\mappingprofiles\\automapper\\providerservice\\providerservicemapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|solutionrelative:akarsoftware.managers\\concrete\\mappingprofiles\\automapper\\providerservice\\providerservicemapprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\areas\\landing\\viewcomponents\\sectionviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\areas\\landing\\viewcomponents\\sectionviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\areas\\landing\\views\\shared\\components\\section\\_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\areas\\landing\\views\\shared\\components\\section\\_section.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}|AkarSoftware.DataAccess\\AkarSoftware.DataAccess.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.dataaccess\\concrete\\entityframework\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}|AkarSoftware.DataAccess\\AkarSoftware.DataAccess.csproj|solutionrelative:akarsoftware.dataaccess\\concrete\\entityframework\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\extentions\\controllerextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\extentions\\controllerextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.managers\\concrete\\dependencyresolves\\microsoft\\microsoftioc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E839FA94-77D6-4B52-A92C-86DC7201A424}|AkarSoftware.Managers\\AkarSoftware.Managers.csproj|solutionrelative:akarsoftware.managers\\concrete\\dependencyresolves\\microsoft\\microsoftioc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}|AkarSoftware.DataAccess\\AkarSoftware.DataAccess.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.dataaccess\\concrete\\entityframework\\seeds\\appuserseeddatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}|AkarSoftware.DataAccess\\AkarSoftware.DataAccess.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.dataaccess\\concrete\\entityframework\\configuration\\genderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}|AkarSoftware.DataAccess\\AkarSoftware.DataAccess.csproj|solutionrelative:akarsoftware.dataaccess\\concrete\\entityframework\\configuration\\genderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}|AkarSoftware.DataAccess\\AkarSoftware.DataAccess.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.dataaccess\\concrete\\entityframework\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFD8F5D-3B64-4EC3-9D83-C0F44E90ADE3}|AkarSoftware.DataAccess\\AkarSoftware.DataAccess.csproj|solutionrelative:akarsoftware.dataaccess\\concrete\\entityframework\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|d:\\github\\advertiesmentapp\\proje\\akarsoftware.mvc.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C36133B0-2E7C-4E95-8C02-A77CCC12C8A9}|AkarSoftware.MVC.UI\\AkarSoftware.MVC.UI.csproj|solutionrelative:akarsoftware.mvc.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,55 +95,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MicrosoftIOC.cs",
-              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOC.cs",
-              "RelativeDocumentMoniker": "AkarSoftware.Managers\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOC.cs",
-              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOC.cs",
-              "RelativeToolTip": "AkarSoftware.Managers\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOC.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAuwEwAAAANAAAA",
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\PartialViews\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\PartialViews\\_Navbar.cshtml",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\PartialViews\\_Navbar.cshtml",
+              "RelativeToolTip": "AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\PartialViews\\_Navbar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-14T21:05:54.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-14T20:48:43.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataResult.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Core\\Utilities\\Results\\BaseResults\\DataResult.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.Core\\Utilities\\Results\\BaseResults\\DataResult.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Core\\Utilities\\Results\\BaseResults\\DataResult.cs",
+              "RelativeToolTip": "AkarSoftware.Core\\Utilities\\Results\\BaseResults\\DataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-28T18:01:02.036Z",
+              "WhenOpened": "2023-12-14T20:59:00.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SuccessDataResult.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Core\\Utilities\\Results\\CostumeResults\\SuccessDataResult.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.Core\\Utilities\\Results\\CostumeResults\\SuccessDataResult.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Core\\Utilities\\Results\\CostumeResults\\SuccessDataResult.cs",
+              "RelativeToolTip": "AkarSoftware.Core\\Utilities\\Results\\CostumeResults\\SuccessDataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T20:59:56.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\ConstVerables\\Messages.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.Managers\\Concrete\\ConstVerables\\Messages.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\ConstVerables\\Messages.cs",
+              "RelativeToolTip": "AkarSoftware.Managers\\Concrete\\ConstVerables\\Messages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T20:58:11.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProviderServiceMapProfile.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\MappingProfiles\\AutoMapper\\ProviderService\\ProviderServiceMapProfile.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.Managers\\Concrete\\MappingProfiles\\AutoMapper\\ProviderService\\ProviderServiceMapProfile.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\MappingProfiles\\AutoMapper\\ProviderService\\ProviderServiceMapProfile.cs",
+              "RelativeToolTip": "AkarSoftware.Managers\\Concrete\\MappingProfiles\\AutoMapper\\ProviderService\\ProviderServiceMapProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T20:55:50.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProviderServicesManager.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\Managers\\IProviderServicesManager.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.Managers\\Concrete\\Managers\\IProviderServicesManager.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\Managers\\IProviderServicesManager.cs",
+              "RelativeToolTip": "AkarSoftware.Managers\\Concrete\\Managers\\IProviderServicesManager.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAswBwAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T20:40:05.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Areas\\Landing\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AkarSoftware.MVC.UI\\Areas\\Landing\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T20:39:22.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "GenderConfiguration.cs",
-              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Configuration\\GenderConfiguration.cs",
-              "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Configuration\\GenderConfiguration.cs",
-              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Configuration\\GenderConfiguration.cs",
-              "RelativeToolTip": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Configuration\\GenderConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-28T18:00:48.061Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-14T21:01:34.951Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyDbContexts.cs",
-              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContexts.cs",
-              "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContexts.cs",
-              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContexts.cs",
-              "RelativeToolTip": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContexts.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-28T18:00:48.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EfGenderRepository.cs",
-              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Repository\\EfGenderRepository.cs",
-              "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Repository\\EfGenderRepository.cs",
-              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Repository\\EfGenderRepository.cs",
-              "RelativeToolTip": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Repository\\EfGenderRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-28T18:00:48Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "AppUserSeedDatas.cs",
               "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Seeds\\AppUserSeedDatas.cs",
               "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Seeds\\AppUserSeedDatas.cs",
@@ -107,39 +223,130 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
-              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
-              "RelativeToolTip": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-28T18:00:46.173Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "ControllerExtentions.cs",
               "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Extentions\\ControllerExtentions.cs",
               "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Extentions\\ControllerExtentions.cs",
               "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Extentions\\ControllerExtentions.cs",
               "RelativeToolTip": "AkarSoftware.MVC.UI\\Extentions\\ControllerExtentions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-16T23:34:54.339Z"
+              "WhenOpened": "2023-11-16T23:34:54.339Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Program.cs",
               "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Program.cs",
               "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Program.cs",
               "RelativeToolTip": "AkarSoftware.MVC.UI\\Program.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAwB8AAAABAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAADkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-11-16T23:31:31.625Z"
+              "WhenOpened": "2023-11-16T23:31:31.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorController.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Controllers\\ErrorController.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Controllers\\ErrorController.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Controllers\\ErrorController.cs",
+              "RelativeToolTip": "AkarSoftware.MVC.UI\\Controllers\\ErrorController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAqwBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T20:41:55.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SectionViewComponent.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\ViewComponents\\SectionViewComponent.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Areas\\Landing\\ViewComponents\\SectionViewComponent.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\ViewComponents\\SectionViewComponent.cs",
+              "RelativeToolTip": "AkarSoftware.MVC.UI\\Areas\\Landing\\ViewComponents\\SectionViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T20:47:44.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Section.cshtml",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\Components\\Section\\_Section.cshtml",
+              "RelativeDocumentMoniker": "AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\Components\\Section\\_Section.cshtml",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\Components\\Section\\_Section.cshtml",
+              "RelativeToolTip": "AkarSoftware.MVC.UI\\Areas\\Landing\\Views\\Shared\\Components\\Section\\_Section.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2023-12-14T20:47:43.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
+              "RelativeToolTip": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\UOW\\UnitOfWork.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAASwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T18:00:46.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EfGenderRepository.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Repository\\EfGenderRepository.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Repository\\EfGenderRepository.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Repository\\EfGenderRepository.cs",
+              "RelativeToolTip": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Repository\\EfGenderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T18:00:48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyDbContexts.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContexts.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContexts.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContexts.cs",
+              "RelativeToolTip": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\DbContexts\\MyDbContexts.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T18:00:48.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MicrosoftIOC.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOC.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.Managers\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOC.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.Managers\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOC.cs",
+              "RelativeToolTip": "AkarSoftware.Managers\\Concrete\\DependencyResolves\\Microsoft\\MicrosoftIOC.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwG0AAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T18:01:02.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GenderConfiguration.cs",
+              "DocumentMoniker": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Configuration\\GenderConfiguration.cs",
+              "RelativeDocumentMoniker": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Configuration\\GenderConfiguration.cs",
+              "ToolTip": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Configuration\\GenderConfiguration.cs",
+              "RelativeToolTip": "AkarSoftware.DataAccess\\Concrete\\EntityFramework\\Configuration\\GenderConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-28T18:00:48.061Z"
             }
           ]
         }

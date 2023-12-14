@@ -1,6 +1,4 @@
-﻿using AkarSoftware.Core.Utilities.Results.ComplexTypes;
-using AkarSoftware.Managers.Abstract;
-using Microsoft.AspNetCore.Http.Metadata;
+﻿using AkarSoftware.Managers.Abstract;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AkarSoftware.MVC.UI.Areas.Landing.Controllers
@@ -17,13 +15,9 @@ namespace AkarSoftware.MVC.UI.Areas.Landing.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            throw new Exception("Selamlar");
             var result = await _providerServicesService.GetAllServices();
-            if (result.Status != ResultStatus.Success)
-            {
-                TempData["Messages"] = result.Messages;
-            }
-            return View(result.Data);
+            var model = result.Data;
+            return View(model);
         }
 
     }

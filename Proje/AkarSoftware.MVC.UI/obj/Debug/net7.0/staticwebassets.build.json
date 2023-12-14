@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n9IHq2p/TIBZzztA+UhqHPvifGHBP2hGIpfj5+moxGA=",
+  "Hash": "XLR2PVXRt3ZheG7+cnDjl9JqLtinItIn38bpuM8hkm4=",
   "Source": "AkarSoftware.MVC.UI",
   "BasePath": "_content/AkarSoftware.MVC.UI",
   "Mode": "Default",
@@ -16,6 +16,44 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\wwwroot\\Medias\\Images\\erp.jpg",
+      "SourceId": "AkarSoftware.MVC.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\wwwroot\\",
+      "BasePath": "_content/AkarSoftware.MVC.UI",
+      "RelativePath": "Medias/Images/erp.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Medias\\Images\\erp.jpg"
+    },
+    {
+      "Identity": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\wwwroot\\Medias\\Images\\software-2.jpg",
+      "SourceId": "AkarSoftware.MVC.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\wwwroot\\",
+      "BasePath": "_content/AkarSoftware.MVC.UI",
+      "RelativePath": "Medias/Images/software-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Medias\\Images\\software-2.jpg"
+    },
     {
       "Identity": "D:\\Github\\AdvertiesmentApp\\Proje\\AkarSoftware.MVC.UI\\wwwroot\\Themes\\Global\\ServerErrorPage\\codepenchallenge-error-500bug-hunt\\dist\\index.html",
       "SourceId": "AkarSoftware.MVC.UI",

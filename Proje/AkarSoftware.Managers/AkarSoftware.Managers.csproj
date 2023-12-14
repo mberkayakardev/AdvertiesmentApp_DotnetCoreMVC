@@ -8,7 +8,6 @@
 
 	<ItemGroup>
 		<Folder Include="Concrete\DependencyResolves\AutoFac\" />
-		<Folder Include="Concrete\MappingProfiles\AutoMapper\" />
 		<FrameworkReference Include="Microsoft.AspNetCore.App" />
 	</ItemGroup>
 

@@ -34,10 +34,10 @@
   <summary>Açıklama</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Proje Hakkında</a>
+      <a href="#Proje-Hakkinda">Proje Hakkında</a>
     </li>
     <li>
-      <a href="#getting-started">Kullanılan Teknolojiler </a>
+      <a href="#teknolojiler">Kullanılan Teknolojiler </a>
     </li>
       </ol>
 </details>
@@ -45,9 +45,11 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Proje Hakkında 
+<h2 id="Proje-Hakkinda"> Proje Hakkında </h2>
 
 <img src ="https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/db.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/exceptionpage.png?raw=true" >
+<img src ="https://github.com/mberkayakardev/AdvertiesmentApp/blob/master/AnaSayfa.png?raw=true" >
 
 Sanal bir teknoloji danışmanlık şirketi olan AkarSoftware için geliştirilmiş olan hayali bir web sayfasıdır. içerisinde şirket işleyişini müşterilere tanıtan bir tanıtım sayfası, Personel arayışı için iş ilanı sayfası, iş başvuru modülü gibi özellikler barındırmaktadır. 
 
@@ -55,16 +57,17 @@ Sanal bir teknoloji danışmanlık şirketi olan AkarSoftware için geliştirilm
 
 
 
-## Kullanılan Teknolojiler
+<h2 id="teknolojiler"> Kullanılan Teknolojiler </id>
 
 * .Net 7.0
 * N-Tier Achitecture - (Çok katmanlı mimari)
+* Costume Cookie Based Auth
 * Unit Of Work
 * Generic Repository
 * AutoMapper
 * Fluent Api
 * Fluent Validaton
-* Entity Framework Core
+* Entity Framework Core (Code first)
 * SummerNote editör
 * NLogger
 * Javascript - Html - CSS - Bootstrap 
