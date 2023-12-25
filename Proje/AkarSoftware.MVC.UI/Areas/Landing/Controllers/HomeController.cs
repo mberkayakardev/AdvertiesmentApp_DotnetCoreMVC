@@ -1,4 +1,6 @@
-﻿using AkarSoftware.Managers.Abstract;
+﻿using AkarSoftware.Core.Utilities.Results.ComplexTypes;
+using AkarSoftware.Managers.Abstract;
+using AkarSoftware.Managers.Concrete.Extentions.ControllerExtentions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AkarSoftware.MVC.UI.Areas.Landing.Controllers
@@ -16,8 +18,12 @@ namespace AkarSoftware.MVC.UI.Areas.Landing.Controllers
         public async Task<IActionResult> Index()
         {
             var result = await _providerServicesService.GetAllServices();
-            var model = result.Data;
-            return View(model);
+            
+            if (result.Status == ResultStatus.NotFound)
+                return NotFound();
+            
+            else
+                return this.ResponseView(result);
         }
 
     }

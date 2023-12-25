@@ -1,4 +1,4 @@
-﻿using AkarSoftware.Core.DataAccess.Abstract;
+﻿using AkarSoftware.Core.DataAccess.Abstract.EntityFramework;
 using AkarSoftware.Core.Entities.Concrete;
 
 namespace AkarSoftware.DataAccess.Abstract

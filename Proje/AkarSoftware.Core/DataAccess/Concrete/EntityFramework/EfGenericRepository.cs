@@ -1,4 +1,4 @@
-﻿using AkarSoftware.Core.DataAccess.Abstract;
+﻿using AkarSoftware.Core.DataAccess.Abstract.EntityFramework;
 using AkarSoftware.Core.DataAccess.Concrete.ComplexTypes;
 using AkarSoftware.Core.Entities.Abstract;
 using Microsoft.EntityFrameworkCore;
@@ -40,7 +40,7 @@ namespace AkarSoftware.Core.DataAccess.Concrete.EntityFramework
             });
         }
 
-        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> where = null, bool AsNoTracking = true, Expression<Func<T, object>> OrderBy = null, OrderByEnum order = OrderByEnum.Descending, params Expression<Func<T, object>>[] IncludeProperties)
+        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> where = null, bool AsNoTracking = true, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, params Expression<Func<T, object>>[] IncludeProperties)
         {
             IQueryable<T> query = _entity;
             if (IncludeProperties != null)
@@ -48,19 +48,16 @@ namespace AkarSoftware.Core.DataAccess.Concrete.EntityFramework
                 foreach (var item in IncludeProperties)
                     query = query.Include(item);
 
+            if (AsNoTracking == true)
+                query = query.AsNoTracking();
+
             if (where != null)
                 query = query.Where(where);
 
-            if (OrderBy != null)
-            {
-                if (order == OrderByEnum.Ascending)
-                    query = query.OrderBy(OrderBy);
-                else
-                    query = query.OrderByDescending(OrderBy);
-            }
+            if (orderBy != null)
+                query = orderBy(query);
 
-            if (AsNoTracking == true)
-                query = query.AsNoTracking();
+         
 
             return await query.ToListAsync();
         }
@@ -70,7 +67,7 @@ namespace AkarSoftware.Core.DataAccess.Concrete.EntityFramework
             return _entity.AsQueryable();
         }
 
-        public async Task<T> GetAsync(Expression<Func<T, bool>> where = null, bool AsNoTracking = false, Expression<Func<T, object>> OrderBy = null, OrderByEnum order = OrderByEnum.Descending, params Expression<Func<T, object>>[] IncludeProperties)
+        public async Task<T> GetAsync(Expression<Func<T, bool>> where = null, bool AsNoTracking = false, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, params Expression<Func<T, object>>[] IncludeProperties)
         {
             IQueryable<T> query = _entity;
             if (IncludeProperties != null)
@@ -81,13 +78,11 @@ namespace AkarSoftware.Core.DataAccess.Concrete.EntityFramework
             if (where != null)
                 query = query.Where(where);
 
-            if (OrderBy != null)
+            if (orderBy != null)
             {
-                if (order == OrderByEnum.Ascending)
-                    query = query.OrderBy(OrderBy);
-                else
-                    query = query.OrderByDescending(OrderBy);
+                query = orderBy(query);
             }
+
 
             if (AsNoTracking == true)
                 query = query.AsNoTracking();

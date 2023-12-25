@@ -66,6 +66,7 @@ namespace AkarSoftware.Managers.Concrete.DependencyResolves.Microsoft
         {
             services.AddSession();
             services.AddMemoryCache(); // memoryCache eklendi .
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>(); // Business içerisinde Cookie bazlı yada Session bazlı işlemler (login logout vs) için ilgili ContextAccessor eklendi.
         }
 
         /// <summary>
