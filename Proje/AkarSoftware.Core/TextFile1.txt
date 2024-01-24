@@ -1,5 +1,0 @@
-﻿İlgili alan içerisinde tüm projelere hizmet edebilecek entityler varsa kodlanabilir.
-
-ilgili implementasyonlar bu aşamda DbContext içerisinden çağrılabilmektedir. 
-
-İlişkiler Fluent api vasıtası ile sağlanabilir. bu sebepten ötürü bu alanda entity e ait navigation propertyler belirtilmedi.
