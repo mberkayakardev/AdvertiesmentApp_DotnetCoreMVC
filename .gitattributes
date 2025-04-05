@@ -12,7 +12,10 @@ dist/** linguist-vendored
 *.cshtml linguist-language=Razor
 
 # C# dosyaları net şekilde belirt
-*.cs linguist-language=C#
+**/*.cs linguist-language=C#
+
+Udemy.AdvertisementApp.UI/wwwroot/** linguist-vendored
+
 
 # JSON, config dosyaları dilden sayılmaz
 *.json linguist-documentation
