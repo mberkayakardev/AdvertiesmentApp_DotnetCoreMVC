@@ -1,0 +1,20 @@
+# wwwroot klasörünü dil analizine dahil etme (statik dosyalar)
+wwwroot/** linguist-vendored
+
+# node_modules klasörünü dışla (varsa)
+node_modules/** linguist-vendored
+
+# lib, dist gibi build klasörleri varsa dışla
+lib/** linguist-vendored
+dist/** linguist-vendored
+
+# cshtml dosyaları Razor olarak sayılır
+*.cshtml linguist-language=Razor
+
+# C# dosyaları net şekilde belirt
+*.cs linguist-language=C#
+
+# JSON, config dosyaları dilden sayılmaz
+*.json linguist-documentation
+*.config linguist-documentation
+*.xml linguist-documentation
